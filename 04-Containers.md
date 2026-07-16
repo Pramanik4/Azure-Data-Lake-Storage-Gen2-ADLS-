@@ -50,20 +50,9 @@ A Storage Account can have multiple Containers, and each Container can have mult
 | Can have multiple folders                | Can have subfolders and files            |
 | Used to separate different types of data | Used to organize data within a Container |
 
-Storage Account
-│
-├── customer-data (Container)
-│      ├── 2025 (Folder)
-│      ├── 2026 (Folder)
-│      └── customers.csv
-│
-├── order-data (Container)
-│      ├── Jan (Folder)
-│      ├── Feb (Folder)
-│      └── orders.csv
-│
-└── backup (Container)
-       └── database.bak
+### Real-World Example
+
+<img width="287" height="362" alt="image" src="https://github.com/user-attachments/assets/79642d62-816e-4d1e-8a61-2c39883a30bb" />
 
 ### Interview Questions
 #### Q1. What is the difference between a Container and a Folder?
