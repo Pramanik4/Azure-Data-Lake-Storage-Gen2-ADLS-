@@ -8,8 +8,6 @@ A complete beginner-to-advanced guide to Azure Data Lake Storage Gen2 covering c
 - Storage Accounts
 - Hierarchical Namespace
 - Containers
-- Access Tiers
-- Data Redundancy
 - RBAC vs ACL
 - SAS Tokens
 - Azure Storage Explorer
