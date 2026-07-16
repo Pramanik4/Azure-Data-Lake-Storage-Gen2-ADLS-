@@ -20,19 +20,8 @@ Inside that Storage Account, you create a Blob Container or enable ADLS Gen2 to 
 
 ### Architecture
 
-Azure Subscription (It's like your electricity bill)
-        │
-        ▼
-Resource Group      (Project folder)
-        │
-        ▼
-Storage Account     (Container)
-        │
- ┌──────┼──────────┬─────────┐
- │      │          │         │
- ▼      ▼          ▼         ▼
-Blob   Files     Queues    Tables
-               (ADLS Gen2 uses Blob)
+<img width="477" height="342" alt="image" src="https://github.com/user-attachments/assets/7b41553c-1450-4bca-8014-84cd88827781" />
+
 
 > **Think of a Resource Group as a project folder.**
 
