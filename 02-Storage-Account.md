@@ -247,3 +247,57 @@ RA-GRS = Geo copies + Read Access
 GZRS = Zone + Geo copies
 RA-GZRS = Zone + Geo + Read Access
 
+### Interview Qs
+Cheapest? → LRS
+Protection against a data center failure? → ZRS
+Protection against an entire regional disaster? → GRS
+Need to read from the secondary region? → RA-GRS
+Highest protection? → RA-GZRS
+
+## Access Tiers
+
+Access Tiers define how frequently your data will be accessed.
+Choosing the right access tier helps organizations optimize storage costs based on how often the data is used.
+
+| Access Tier | Best For                   | Storage Cost | Access Cost                               |
+| ----------- | -------------------------- | ------------ | ----------------------------------------- |
+| **Hot**     | Frequently accessed data   | High         | Low                                       |
+| **Cool**    | Occasionally accessed data | Medium       | Medium                                    |
+| **Cold**    | Rarely accessed data       | Low          | High                                      |
+| **Archive** | Almost never accessed data | Lowest       | Highest (requires rehydration before use) |
+
+### 🔥 Hot Tier
+Today's Sales Data
+Live Application Logs
+=> Accessed every day.
+
+### ❄️ Cool Tier
+Last Month's Reports
+Completed Projects
+Weekly Backups
+=> Accessed once in a while.
+
+### 🧊 Cold Tier
+1-Year-Old Logs
+Old Audit Reports
+Previous Year's Sales Data
+=> Rarely accessed.
+
+### 📦 Archive Tier
+10-Year Financial Records
+Legal Documents
+Medical Records
+=> Almost never accessed, but kept for compliance.
+
+### Memory Trick
+
+Hot     → Every day
+Cool    → Sometimes
+Cold    → Rarely
+Archive → Almost Never
+
+### Interview Questions
+#### Q1. Which tier is the cheapest?
+#### Q2. Which tier is used for frequently accessed data?
+#### Q3. Which tier is the default?
+#### Q4. Can you directly read data from the Archive tier?
