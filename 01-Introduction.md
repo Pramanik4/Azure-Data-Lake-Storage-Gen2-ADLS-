@@ -192,3 +192,16 @@ ADLS Gen2 may not be the best choice when:
 - It integrates easily with Azure Data Factory, Azure Databricks, Azure Synapse Analytics, and Microsoft Fabric.
 - It is widely used across industries such as E-Commerce, Banking, Healthcare, IoT, and Streaming Platforms.
 
+## Interview Questions
+
+### Q1. Why was ADLS Gen2 introduced?
+
+### Q2. Difference between Blob Storage, ADLS Gen1, and ADLS Gen2?
+
+### Q3. What is Hierarchical Namespace?
+
+### Q4. Why is ADLS Gen2 preferred over Blob Storage for Data Engineering?
+
+### Q5. Can ADLS Gen2 process data?
+
+### Q6. Why is ADLS Gen2 called a Data Lake?
