@@ -29,3 +29,50 @@ companydata
 
 Each Container stores a different type of data, making it easier to organize and manage information.
 
+## Why do we need Containers?
+
+We need Containers to organize different types of data separately.
+
+For example, a company may have customer data, order data, application logs, product images, and backup files. Instead of storing everything in one place, we can create separate Containers for each type of data.
+
+This makes it easier to manage, find, secure, and process the data whenever required.
+
+## Container vs Folder
+
+A Container is the top-level storage unit inside a Storage Account, whereas a Folder is used to organize files inside a Container.
+
+A Storage Account can have multiple Containers, and each Container can have multiple Folders (only in ADLS Gen2 with Hierarchical Namespace enabled).
+
+| Container                                | Folder                                   |
+| ---------------------------------------- | ---------------------------------------- |
+| Top-level storage unit                   | Organizes files inside a Container       |
+| Created inside a Storage Account         | Created inside a Container               |
+| Can have multiple folders                | Can have subfolders and files            |
+| Used to separate different types of data | Used to organize data within a Container |
+
+Storage Account
+│
+├── customer-data (Container)
+│      ├── 2025 (Folder)
+│      ├── 2026 (Folder)
+│      └── customers.csv
+│
+├── order-data (Container)
+│      ├── Jan (Folder)
+│      ├── Feb (Folder)
+│      └── orders.csv
+│
+└── backup (Container)
+       └── database.bak
+
+### Interview Questions
+#### Q1. What is the difference between a Container and a Folder?
+
+#### Q2. Can a Storage Account have multiple Containers?
+
+#### Q3. Can a Container have multiple Folders?
+
+#### Q4. Can a Folder exist without a Container?
+
+#### Q5. In ADLS Gen2, where are files stored?
+
