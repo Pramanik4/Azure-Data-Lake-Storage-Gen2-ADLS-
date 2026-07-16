@@ -1,6 +1,3 @@
-# Azure-Data-Lake-Storage-Gen2-ADLS-
-Complete Azure Data Lake Storage Gen2 (ADLS Gen2) guide with concepts, hands-on labs, architecture, security, optimization, best practices, and interview preparation.
-
 # Azure Data Lake Storage Gen2 (ADLS Gen2)
 
 A complete beginner-to-advanced guide to Azure Data Lake Storage Gen2 covering concepts, architecture, security, performance optimization, cost optimization, hands-on labs, best practices, real-world use cases, and interview preparation.
