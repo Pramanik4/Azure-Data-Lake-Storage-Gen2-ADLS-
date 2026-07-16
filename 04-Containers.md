@@ -54,6 +54,12 @@ A Storage Account can have multiple Containers, and each Container can have mult
 
 <img width="287" height="362" alt="image" src="https://github.com/user-attachments/assets/79642d62-816e-4d1e-8a61-2c39883a30bb" />
 
+## Container vs Storage Account
+
+A Storage Account is the main Azure resource that hosts storage services like Blob Storage, Azure Files, Queue Storage, and Table Storage.
+
+A Container is a logical storage unit created inside a Storage Account to organize and store data.
+
 ### Interview Questions
 #### Q1. What is the difference between a Container and a Folder?
 
@@ -64,4 +70,6 @@ A Storage Account can have multiple Containers, and each Container can have mult
 #### Q4. Can a Folder exist without a Container?
 
 #### Q5. In ADLS Gen2, where are files stored?
+
+#### Can we upload a file directly into a Storage Account without creating a Container?
 
