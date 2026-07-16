@@ -266,24 +266,24 @@ Choosing the right access tier helps organizations optimize storage costs based 
 | **Cold**    | Rarely accessed data       | Low          | High                                      |
 | **Archive** | Almost never accessed data | Lowest       | Highest (requires rehydration before use) |
 
-### 🔥 Hot Tier
+#### 🔥 Hot Tier
 Today's Sales Data
 Live Application Logs
 => Accessed every day.
 
-### ❄️ Cool Tier
+#### ❄️ Cool Tier
 Last Month's Reports
 Completed Projects
 Weekly Backups
 => Accessed once in a while.
 
-### 🧊 Cold Tier
+#### 🧊 Cold Tier
 1-Year-Old Logs
 Old Audit Reports
 Previous Year's Sales Data
 => Rarely accessed.
 
-### 📦 Archive Tier
+#### 📦 Archive Tier
 10-Year Financial Records
 Legal Documents
 Medical Records
