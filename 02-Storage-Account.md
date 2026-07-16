@@ -182,7 +182,9 @@ Azure achieves this by keeping multiple copies of the data, ensuring that anothe
 - It improves data availability and durability.
 - Azure provides different redundancy options based on business requirements.
 
-LRS (Local)
+### Azure Storage redundancy options
+
+#### 1. LRS (Local)
 Mumbai Data Center
 
 Copy 1
@@ -191,7 +193,7 @@ Copy 3
 
 👉 Everything stays inside one data center.
 
-2. ZRS (Zone)
+#### 2. ZRS (Zone)
 Mumbai Region
 
 Zone 1 → Copy 1
@@ -199,15 +201,13 @@ Zone 2 → Copy 2
 Zone 3 → Copy 3
 👉 Copies are spread across different Availability Zones in the same region.
 
-3. GRS (Geo)
+#### 3. GRS (Geo)
 Primary Region (Mumbai)
 
 Copy 1
 Copy 2
 Copy 3
-
         ↓
-
 Secondary Region (Chennai)
 
 Copy 4
@@ -215,26 +215,24 @@ Copy 5
 Copy 6
 👉 Azure also keeps another 3 copies in a paired region.
 
-4. RA-GRS
+#### 4. RA-GRS
 
 Same as GRS, but:
 ✅ You can read data from the secondary region even if the primary region is still running.
 
-5. GZRS
+#### 5. GZRS
 Primary Region
 
 Zone 1
 Zone 2
 Zone 3
-
         ↓
-
 Secondary Region
 
 3 more copies
 👉 Combines ZRS + GRS.
 
-6. RA-GZRS
+#### 6. RA-GZRS
 
 Same as GZRS, plus:
 
