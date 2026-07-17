@@ -89,7 +89,7 @@ ADF (Monitor) - The dashboard to monitor your pipelines.
 
 ADF (Manage) - The settings page for ADF.
 <img width="1486" height="917" alt="image" src="https://github.com/user-attachments/assets/fde838e9-1ec3-47f7-9310-5309fbedae40" />
-
+## Hands-on Lab 04 – Create Linked Service
 #### Create Linked Service
 Step 1: Go to manage than Linked Service & than fill all details
 
