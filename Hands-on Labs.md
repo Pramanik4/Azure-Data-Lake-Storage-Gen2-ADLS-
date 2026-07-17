@@ -105,7 +105,7 @@ A Dataset represents the data (file, table, or folder) that Azure Data Factory r
 
 <img width="1918" height="818" alt="image" src="https://github.com/user-attachments/assets/a13ca0e7-728f-4086-92ad-990bb1b74736" />
 
-## Hands-on Lab 6 - Create Your First Pipeline
+
 
 **NOTE: 
 To create Linked Service -> Manage
