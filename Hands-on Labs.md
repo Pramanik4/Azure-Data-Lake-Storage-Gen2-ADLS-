@@ -1,3 +1,4 @@
+## Hands-on Lab 01 – Create Azure Data Lake Storage Gen2
 
 ### In search bar type "Storage Account & Click
 <img width="1233" height="358" alt="image" src="https://github.com/user-attachments/assets/84a920ff-e0f3-4de5-8e46-b71a5c9aaf1d" />
@@ -109,12 +110,13 @@ A Dataset represents the data (file, table, or folder) that Azure Data Factory r
 **NOTE: 
 To create Linked Service -> Manage
 To create Dataset -> Author**
+
 ### Interview Question
 
-Q: What is Break Lease in Azure Storage?
-Why do we select "Import schema = None" for the Sink Dataset?
-Q: When would you use sequential execution instead of parallel execution in Azure Data Factory?
-Q: Why should we use parallel execution for independent activities?
+#### Q What is Break Lease in Azure Storage?
+#### Q Why do we select "Import schema = None" for the Sink Dataset?
+#### Q When would you use sequential execution instead of parallel execution in Azure Data Factory?
+#### Q Why should we use parallel execution for independent activities?
 
 
 
