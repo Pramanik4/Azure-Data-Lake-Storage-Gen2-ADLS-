@@ -285,6 +285,8 @@ Cool    → Sometimes
 Cold    → Rarely
 Archive → Almost Never
 
+**Note: If you select Premium performance while creating an ADLS Storage Account, the Access Tier option is disabled and is automatically set to Hot.**
+
 ### Interview Questions
 #### Q1. Which tier is the cheapest?
 #### Q2. Which tier is used for frequently accessed data?
